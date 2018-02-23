@@ -1,0 +1,16 @@
+nav, footer, video {
+  display: none;
+}
+
+a:after {
+  content:"  (" attr(href)")";
+  font-size: 80%;
+}
+
+.container, article {
+  width: 100%;
+}
+
+.print-only {
+  display: initial;
+}
