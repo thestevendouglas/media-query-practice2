@@ -14,3 +14,9 @@ a:after {
 .print-only {
   display: initial;
 }
+
+@media (min-width 450px){
+  body {
+    margin: 0px;
+  }
+}
