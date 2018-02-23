@@ -15,8 +15,8 @@ a:after {
   display: initial;
 }
 
-@media (min-width 450px){
-  body {
+@media (max-width 450px){
+  .container {
     margin: 0px;
   }
 }
