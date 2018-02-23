@@ -10,11 +10,11 @@ body {
   padding: 2rem;
 }
 
-@media (max-width 600px)
-  .body{
-    background:disabled;
+@media (max-width 600px){
+  body {
+    background-color: white;
 }
-
+}
 
 a {
   color: rgb(62, 78, 23);
