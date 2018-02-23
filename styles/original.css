@@ -2,12 +2,19 @@
   box-sizing: border-box;
 }
 
+
 body {
   background: #9CD382;
   background: linear-gradient(rgba(102, 196, 58, 0.43), rgba(157, 196, 58, 0.64), rgba(215, 174, 49, 0.77));
   font-family: sans-serif;
   padding: 2rem;
 }
+
+@media (max-width 600px)
+  .body{
+    background:disabled;
+}
+
 
 a {
   color: rgb(62, 78, 23);
